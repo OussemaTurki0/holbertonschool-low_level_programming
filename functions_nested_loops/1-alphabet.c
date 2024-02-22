@@ -1,13 +1,16 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * Entry point - print_alphabet
+ *
+ * Description: This function prints the lowercase alphabet characters
+ *              from 'a' to 'z', each followed by a new line.
  */
 void print_alphabet(void)
 {
-char letter;
-
-for (letter = 'a'; letter <= 'z'; letter++)
-	_putchar(letter);
-
+char alpha;
+for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+{
+_putchar(alpha);
+}
 _putchar('\n');
 }
