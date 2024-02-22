@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Entry point - print_alphabet
+ * print_alphabet - entry point
  * Description: This function prints the lowercase alphabet characters
  *              from 'a' to 'z', each followed by a new line.
  */
