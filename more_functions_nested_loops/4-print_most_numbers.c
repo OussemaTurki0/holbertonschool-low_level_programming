@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*print_less_numbers - print 0123456789
+*print_most_numbers - print 0123456789
 *Return: void
 */
-void print_less_numbers(void)
+void print_most_numbers(void)
 
 {
 	char c;
