@@ -2,8 +2,8 @@
 
 /**
  * _strcpy - copies the string pointed
- * @dest: This is destiny
- * @src: This is the copie
+ * @dest: destiny
+ * @src: copie
  * Return: This return copy
  */
 char *_strcpy(char *dest, char *src)
