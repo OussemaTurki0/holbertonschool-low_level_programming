@@ -5,20 +5,17 @@
  * @str: string to print the chars from
  */
 void puts2(char *str)
+
 {
 	int L, i;
-
 	L = 0;
-
 	while (str[L] != '\0')
 	{
 		L++;
 	}
-
 	for (i = 0; i < L; i += 2)
 	{
 		_putchar(str[i]);
 	}
-
 	_putchar('\n');
 }
