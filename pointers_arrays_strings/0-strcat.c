@@ -5,6 +5,7 @@
  * @dest : pointer
  * @src : pointer 2
  * Return: Always 0.
+ * Credit : oussema turki
  */
 char *_strcat(char *dest, char *src)
 {
