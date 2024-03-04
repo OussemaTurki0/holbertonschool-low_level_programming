@@ -2,7 +2,7 @@
 
 /**
  * _memcpy - Copies memory area
- * @dest: where 
+ * @dest: where
  * @n: number
  * @src: memory area
  * Return: a pointer to @dest
