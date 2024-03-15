@@ -1,26 +1,30 @@
 #include "main.h"
-#include <string.h> 
-/* Include the necessary header file for memset */
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * _calloc - allocates memory for an array given number of elements and size
- * @nmemb: number of elements
- * @size: size of each element
- * Return: Null if error, else pointer to allocated memory
+ * *_calloc - function to allocates memory
+ * @nmemb: unsigned int type
+ * @size: unsigned int type
+ * Return: return pointer to array
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-    void *p;
+	char *ptr;
+	unsigned int count;
 
-    if (nmemb == 0 || size == 0)
-        return NULL;
-
-    p = malloc(nmemb * size);
-    if (p == NULL)
-        return NULL;
-
-    memset(p, 0, nmemb * size);
-
-    return p;
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+	ptr = malloc(nmemb * size);
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	count = 0;
+	while (count < nmemb * size)
+	{
+		ptr[count] = 0;
+		count++;
+	}
+	return (ptr);
 }
