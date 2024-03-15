@@ -1,5 +1,6 @@
 #include "main.h"
-#include <string.h> // Include the necessary header file for memset
+#include <string.h> 
+/* Include the necessary header file for memset */
 
 /**
  * _calloc - allocates memory for an array given number of elements and size
@@ -10,16 +11,16 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *p;
+    void *p;
 
-if (nmemb == 0 || size == 0)
-return NULL;
+    if (nmemb == 0 || size == 0)
+        return NULL;
 
-p = malloc(nmemb * size);
-if (p == NULL)
-return NULL;
+    p = malloc(nmemb * size);
+    if (p == NULL)
+        return NULL;
 
-memset(p, 0, nmemb * size);
+    memset(p, 0, nmemb * size);
 
-return p;
+    return p;
 }
