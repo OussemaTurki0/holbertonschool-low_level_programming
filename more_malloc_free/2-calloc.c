@@ -4,9 +4,9 @@
 
 /**
  * *_calloc - function to allocates memory
- * @nmemb: unsigned int type
- * @size: unsigned int type
- * Return: return pointer to array
+ * @nmemb:  int type
+ * @size:  int type
+ * Return:  array
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {

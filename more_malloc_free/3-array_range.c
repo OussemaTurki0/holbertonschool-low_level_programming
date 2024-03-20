@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * *array_range - make  memory for an array
+ * *array_range - memoryarray
  * @min: int type
  * @max: int type
  * Return:  return pointer to array

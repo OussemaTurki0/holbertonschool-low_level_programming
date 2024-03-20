@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * string_nconcat - concatenate 2 strings, only n bytes of s2
+ * string_nconcat - concatenate 2 strings
  * @s1: string 1
  * @s2: string 2
  * @n: bytes to include of s2
- * Return: NULL if fail, else pointer to malloc memory
+ * Return: NULL if fail
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)

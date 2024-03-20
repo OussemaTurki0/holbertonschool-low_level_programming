@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * op_add - addition operator
+ * op_add - operator
  * @a: first int
  * @b: second int
- * Return: sum of 2 numbers
+ * Return: sum numbers
  */
 int op_add(int a, int b)
 {
@@ -13,10 +13,10 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - subtraction operator
+ * op_sub - operator
  * @a: first in
  * @b: second int
- * Return: difference of 2 numbers
+ * Return: difference numbers
  */
 int op_sub(int a, int b)
 {
@@ -24,10 +24,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - product of 2 numbers
+ * op_mul - product numbers
  * @a: first int
  * @b: second int
- * Return: product of the numbers
+ * Return: product numbers
  */
 int op_mul(int a, int b)
 {
@@ -35,10 +35,10 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - division of 2 numbers
+ * op_div - division numbers
  * @a: first int
  * @b: second int
- * Return: result of the division of the numbers
+ * Return: result numbers
  */
 int op_div(int a, int b)
 {
@@ -51,10 +51,10 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - get remainder of the division of 2 numbers
+ * op_mod - get remainder of numbers
  * @a: first int
  * @b: second int
- * Return: remainder of division of the numbers
+ * Return: remainder numbers
  */
 int op_mod(int a, int b)
 {

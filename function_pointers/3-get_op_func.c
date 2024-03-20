@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- * get_op_func - select the correct operation function asked by user
+ * get_op_func - select function
  * @s: operator argument
- * Return: function pointer corresponding to operator given
+ * Return: function pointer
  */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
