@@ -10,7 +10,7 @@
  *
  * Return: length of list
  */
-size_t print_listint(const listint_t *h)
+size_t print_listint(const dlistint_t *h)
 {
 	size_t len;
 
