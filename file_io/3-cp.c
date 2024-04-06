@@ -111,4 +111,3 @@ int main(int ac, char *av[])
 	if (err != 0)
 		return (100);
 	return (0);
-}
